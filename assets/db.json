@@ -1,0 +1,40 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "titulo": "Hacer el modelado del proyecto",
+            "imagen": "https://dummyimage.com/600x400/000/fff",
+            "tiempo": 17,
+            "descripcion": "Realizar el modelado del sistema utilizando UML",
+            "responsable": "Abril Sabatini",
+            "estado": "Completada"
+        },
+        {
+            "id": 2,
+            "titulo": "Desarrollar la interfaz de usuario",
+            "imagen": "https://dummyimage.com/600x400/333/fff",
+            "tiempo": 28,
+            "descripcion": "Crear la interfaz de usuario utilizando HTML, CSS y JavaScript",
+            "responsable": "Carlos Pérez",
+            "estado": "Por testear"
+        },
+        {
+            "id": 3,
+            "titulo": "Implementar la lógica de negocio",
+            "imagen": "https://dummyimage.com/600x400/666/fff",
+            "tiempo": 35,
+            "descripcion": "Escribir el código para la lógica de negocio del sistema",
+            "responsable": "Luisa Rodríguez",
+            "estado": "En producción"
+        },
+        {
+            "id": 4,
+            "titulo": "Configurar la base de datos",
+            "imagen": "https://dummyimage.com/600x400/999/fff",
+            "tiempo": 20,
+            "descripcion": "Diseñar la estructura de la base de datos y configurar el servidor de base de datos",
+            "responsable": "Martín Gómez",
+            "estado": "En progreso"
+        }
+    ]
+}
