@@ -65,7 +65,7 @@
             <div class="row gx-4 gx-lg-5 align-items-center"> 
                 <div class="col-md-6">
                     <img 
-                    id="product-imagen"
+                    id="producto-imagen"
                     class="card-img-top mb-5 mb-md0"
                     src="https://dummyimage.com/600x400/000/fff" 
                     alt=""
@@ -73,27 +73,32 @@
                 </div>
                 <div class="col-md-6">
                     <h1 
-                        id="product-titulo"
+                        id="producto-titulo"
                         class="display-5 fw-bolder">
-                        TITULO</h1>
-                        <div class="f5-5 mb-3">
-                            <label for="">Tiempo: </label>
-                            <span id="products-tiempo">TIEMPO</span>
-                        </div>
-                        <p
-                            id="product-descripcion"
-                            class="lead"
-                        >
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat necessitatibus porro delectus voluptatum voluptas. Labore ut natus sint voluptatem, quisquam incidunt quod quos autem quaerat tempore animi veritatis odit! Eum?
-                        </p>
-                        <div class="f5-5 mb-3">
-                            <label for="">Responsable: </label>
-                            <span id="products-responsable">RESPONSABLE</span>
-                        </div>
-                        <div class="d-flex">
-                            <input type="text" class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem;">
-                            <!--Botón-->
-                        </div>
+                        TITULO
+                    </h1>
+                    <div class="f5-5 mb-3">
+                        <label for="">Tiempo: </label>
+                        <span id="producto-tiempo">TIEMPO</span>
+                    </div>
+                    <p id="producto-descripcion" class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat necessitatibus porro delectus voluptatum voluptas. Labore ut natus sint voluptatem, quisquam incidunt quod quos autem quaerat tempore animi veritatis odit! Eum?
+                    </p>
+                    <div class="f5-5 mb-3">
+                        <label for="">Responsable: </label>
+                        <span id="producto-responsable">RESPONSABLE</span>
+                    </div>
+                        <!-------------------------------------------------------->
+                    <div class="d-flex gap-4">
+                        <label for="estado">Estado: </label>
+                        <select id="estado" class="form-control" style="width: 150px;">
+                            <option value="Por hacer">Por hacer</option>
+                            <option value="Por testear">Por testear</option>
+                            <option value="En producción">En producción</option>
+                            <option value="Completada">Completada</option>
+                        </select>
+                        <button id="guardarEstado" type="button" class="btn btn-outline-dark">Guardar</button>
+                    </div>
                 </div>
             </div>
         </div>
